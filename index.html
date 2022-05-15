@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Canada Holidays</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/mainStyles.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="logoDiv">
+            <a href="https://ccnb.ca/" target="_blank"><img class="logo" src="https://ccnb.ca/css/images/ccnb_logo.png" alt="logo ccnb"> </a>
+            <img class="logoCanada" src="images/Capture.JPG" alt="logo Canada" align="right" >
+        </div>
+        <div class="appcont">
+            <h1>Canada Holidays Tracker App</h1>
+            <p>
+                
+            </p>
+
+            <form id="myform">
+                <label for ="provinceselect">Choix du proviance</label> 
+                <select name="holiday" id="provinceselect" >
+                    <option value="" >--Fais ton choix--</option>
+
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New Brunswick</option>
+
+                    <option value="NL">Newfoundland and Labrador</option>
+                    <option value="NT">Northwest Territories	</option>
+
+                    <option value="NS">Nova Scotia	</option>
+                    <option value="NU">Nunavut</option>
+
+                    <option value="ON">Ontario</option>
+                    <option value="PE">Prince Edward Island	</option>
+
+                    <option value="QC">Quebec</option>
+                    <option value="SK">Saskatchewan</option>
+
+                    <option value="YT">Yukon</option>
+       
+                </select>
+                <input type="submit" value="Afficher">
+            </form>
+
+            <div class="results">
+                <div id="province"></div> <br/>
+                <div id="Holidays numbers per year"></div><br/>
+                <div id="Last holiday"></div><br/>
+                <div id="Date last Holiday"></div><br/>
+                <div id="Next Holiday name"></div><br/>
+                <div id="Date of Next holiday"></div><br/>
+
+                
+
+            </div>
+        </div>
+</body>
+
+</html>
